@@ -9,7 +9,7 @@ This demo showcases MicroGPT, a minimal implementation of the GPT (Generative Pr
 **Key Features:**
 - Pure Python implementation with custom autograd engine
 - Character-level tokenization
-- Trains on the 'names' dataset (32,033 names)
+- Trains on the 'names' dataset (32,033 names) from [`input.txt`](input.txt)
 - Generates new name-like sequences after training
 - Uses transformer architecture with multi-head attention
 
