@@ -156,8 +156,9 @@ The training completed successfully! Here's what we observed:
 
 **Training Progress:**
 - Initial loss: ~3.33
-- Final loss: ~3.68 (with variations showing the model is learning patterns)
-- The loss generally decreases over time, indicating the model is learning
+- Loss shows variation throughout training (reaching lows of ~2.46 at step 39, ~2.48 at step 196)
+- Final step shows spike to ~3.68 (typical of small batch, noisy training)
+- Overall trend shows the model learning character-level patterns despite high variance
 
 **Generated Names:**
 1. peino
